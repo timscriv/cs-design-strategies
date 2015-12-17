@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonPattern", "Singlet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Tests", "Singleton.Tests\Singleton.Tests.csproj", "{137DCE58-3082-4302-BA95-4AD8206E1F53}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{CF38BA38-39B4-47A9-83F2-63AA8AD20DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{1FEDB1E9-352B-48DA-BBE0-67F0D7BC0D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection.Client", "DependencyInjection.Client\DependencyInjection.Client.csproj", "{64F3F8AD-663E-4E38-B57D-120AF89A7D91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +35,14 @@ Global
 		{137DCE58-3082-4302-BA95-4AD8206E1F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{137DCE58-3082-4302-BA95-4AD8206E1F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{137DCE58-3082-4302-BA95-4AD8206E1F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEDB1E9-352B-48DA-BBE0-67F0D7BC0D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEDB1E9-352B-48DA-BBE0-67F0D7BC0D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEDB1E9-352B-48DA-BBE0-67F0D7BC0D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEDB1E9-352B-48DA-BBE0-67F0D7BC0D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F3F8AD-663E-4E38-B57D-120AF89A7D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F3F8AD-663E-4E38-B57D-120AF89A7D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F3F8AD-663E-4E38-B57D-120AF89A7D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F3F8AD-663E-4E38-B57D-120AF89A7D91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F6F41F86-75EB-4BE2-9F22-7447DC229821} = {C07DC309-906D-475F-B77D-218E8005A7CD}
 		{137DCE58-3082-4302-BA95-4AD8206E1F53} = {C07DC309-906D-475F-B77D-218E8005A7CD}
+		{1FEDB1E9-352B-48DA-BBE0-67F0D7BC0D98} = {CF38BA38-39B4-47A9-83F2-63AA8AD20DB0}
+		{64F3F8AD-663E-4E38-B57D-120AF89A7D91} = {CF38BA38-39B4-47A9-83F2-63AA8AD20DB0}
 	EndGlobalSection
 EndGlobal

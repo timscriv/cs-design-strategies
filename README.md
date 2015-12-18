@@ -14,4 +14,6 @@ Something like datetime would be a good dependency with an interface on it so we
 	
 ##Dependency Injection
 
-
+##Open-Closed and Liskov
+- Open for extension but closed for modification. 
+- Liskov Substituion is when multiple things are of one type abstraction and each of the types can be used interchangeably 
